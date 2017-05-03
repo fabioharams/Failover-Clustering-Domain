@@ -3,7 +3,7 @@ Steps to deploy Failover Clustering in Domain on Windows Server 2016 + Storage S
 
 
 ## Install Features on each node ##
-Install the following features on each note remotely: Failover Clustering, File Server and management tools. You must replace value "node" to the name of your servers
+Install the following features on each node remotely: Failover Clustering, File Server and management tools. You must replace value "node" to the name of your servers
 
 ```
 $Servers = 'nodedomain1','nodedomain2','nodedomain3' 
